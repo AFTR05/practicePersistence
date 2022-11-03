@@ -17,7 +17,6 @@ public class MainTXT {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         String name = JOptionPane.showInputDialog("Input the name of the person");
         String lastName = JOptionPane.showInputDialog("Input the last name of the person");
         int age=Integer.parseInt(JOptionPane.showInputDialog("Input the age of the person"));
