@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.2" class="java.beans.XMLDecoder">
+ <object class="PersistenceXML.Model.AttractionPlace">
+  <void property="attractions">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="PersistenceXML.Model.Attraction">
+      <void property="name">
+       <string>Xbox360</string>
+      </void>
+      <void property="type">
+       <string>Console</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenceXML.Model.Attraction">
+      <void property="name">
+       <string>Ping Pong Table</string>
+      </void>
+      <void property="type">
+       <string>Table</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenceXML.Model.Attraction">
+      <void property="name">
+       <string>PC</string>
+      </void>
+      <void property="type">
+       <string>computer</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
